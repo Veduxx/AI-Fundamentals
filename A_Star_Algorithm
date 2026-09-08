@@ -1,12 +1,21 @@
 import heapq
 #Data-structure to store calculated values
 
+
+#Definition of A*
+
 def a_star(graph, heuristic,start,goal ):
 
+
+#list datatype
      open_list = [(heuristic[start],start)]
+
+
+#set datatype for unique values. visited node is not #repeated
      visited = set()
 
      while open_list:
+       
 
           cost,current = heapq.heappop(open_list)
 

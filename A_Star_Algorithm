@@ -1,4 +1,5 @@
-import heapq #Data-structure to store values
+import heapq
+#Data-structure to store calculated values
 
 def a_star(graph, heuristic,start,goal ):
 

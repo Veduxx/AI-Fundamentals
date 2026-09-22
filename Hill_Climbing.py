@@ -18,7 +18,7 @@ def hill_climbing(start):
             break
 
         current=next_state
-        return current,f(current)
+    return current,f(current)
 #Starting point
 start=0
 #Apply Hill Climbing
